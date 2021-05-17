@@ -1,13 +1,11 @@
 import React from 'react';
-import Card from '../UI/Card';
-import '../UI/Card.css';
-
+import './NewExpense.css';
 const NewExpense = () => {
-  return {
-    <div>
-    <form></form>
+  return (
+    <div className="new-expense">
+    <NewExpense />
     </div>
-  };
+  );
 };
 
 export default NewExpense;
